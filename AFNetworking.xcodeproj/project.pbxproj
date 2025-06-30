@@ -389,14 +389,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1CBAE29F2E12916700F93FA1 /* resource */ = {
-			isa = PBXGroup;
-			children = (
-				1CBAE2A02E12916F00F93FA1 /* PrivacyInfo.xcprivacy */,
-			);
-			path = resource;
-			sourceTree = "<group>";
-		};
 		298D7C561BC2C88F00FD3B3E /* Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -547,7 +539,7 @@
 		299522451BBF125A00859F49 /* AFNetworking */ = {
 			isa = PBXGroup;
 			children = (
-				1CBAE29F2E12916700F93FA1 /* resource */,
+				1CBAE2A02E12916F00F93FA1 /* PrivacyInfo.xcprivacy */,
 				1F083A4920364648004D80C7 /* AFCompatibilityMacros.h */,
 				299522461BBF125A00859F49 /* AFHTTPSessionManager.h */,
 				299522471BBF125A00859F49 /* AFHTTPSessionManager.m */,
