@@ -10,6 +10,10 @@
 		1BF9F9601C87832B00F1F35A /* AFImageResponseSerializerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF9F95F1C87832B00F1F35A /* AFImageResponseSerializerTests.m */; };
 		1BF9F9611C87843200F1F35A /* AFImageResponseSerializerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF9F95F1C87832B00F1F35A /* AFImageResponseSerializerTests.m */; };
 		1BF9F9621C87843300F1F35A /* AFImageResponseSerializerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF9F95F1C87832B00F1F35A /* AFImageResponseSerializerTests.m */; };
+		1CBAE2A12E12917A00F93FA1 /* PrivacyInfo.xcprivacy in Sources */ = {isa = PBXBuildFile; fileRef = 1CBAE2A02E12916F00F93FA1 /* PrivacyInfo.xcprivacy */; };
+		1CBAE2A22E12917A00F93FA1 /* PrivacyInfo.xcprivacy in Sources */ = {isa = PBXBuildFile; fileRef = 1CBAE2A02E12916F00F93FA1 /* PrivacyInfo.xcprivacy */; };
+		1CBAE2A32E12917A00F93FA1 /* PrivacyInfo.xcprivacy in Sources */ = {isa = PBXBuildFile; fileRef = 1CBAE2A02E12916F00F93FA1 /* PrivacyInfo.xcprivacy */; };
+		1CBAE2A42E12917A00F93FA1 /* PrivacyInfo.xcprivacy in Sources */ = {isa = PBXBuildFile; fileRef = 1CBAE2A02E12916F00F93FA1 /* PrivacyInfo.xcprivacy */; };
 		1F96D2A4203649560085FC3F /* AFCompatibilityMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F083A4920364648004D80C7 /* AFCompatibilityMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1F96D2A5203649570085FC3F /* AFCompatibilityMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F083A4920364648004D80C7 /* AFCompatibilityMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1F96D2A6203649570085FC3F /* AFCompatibilityMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F083A4920364648004D80C7 /* AFCompatibilityMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -234,6 +238,7 @@
 
 /* Begin PBXFileReference section */
 		1BF9F95F1C87832B00F1F35A /* AFImageResponseSerializerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFImageResponseSerializerTests.m; sourceTree = "<group>"; };
+		1CBAE2A02E12916F00F93FA1 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		1F083A4920364648004D80C7 /* AFCompatibilityMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFCompatibilityMacros.h; sourceTree = "<group>"; };
 		2960BAC21C1B2F1A00BA02F0 /* AFUIButtonTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFUIButtonTests.m; sourceTree = "<group>"; };
 		297824A01BC2D69A0041C395 /* adn_0.cer */ = {isa = PBXFileReference; lastKnownFileType = file; name = adn_0.cer; path = ADNNetServerTrustChain/adn_0.cer; sourceTree = "<group>"; };
@@ -384,6 +389,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1CBAE29F2E12916700F93FA1 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				1CBAE2A02E12916F00F93FA1 /* PrivacyInfo.xcprivacy */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
 		298D7C561BC2C88F00FD3B3E /* Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -534,6 +547,7 @@
 		299522451BBF125A00859F49 /* AFNetworking */ = {
 			isa = PBXGroup;
 			children = (
+				1CBAE29F2E12916700F93FA1 /* resource */,
 				1F083A4920364648004D80C7 /* AFCompatibilityMacros.h */,
 				299522461BBF125A00859F49 /* AFHTTPSessionManager.h */,
 				299522471BBF125A00859F49 /* AFHTTPSessionManager.m */,
@@ -808,6 +822,7 @@
 				TargetAttributes = {
 					2987B0A41BC408A200179A4C = {
 						CreatedOnToolsVersion = 7.1;
+						LastSwiftMigration = 1640;
 						ProvisioningStyle = Automatic;
 					};
 					2987B0AD1BC408A200179A4C = {
@@ -824,14 +839,17 @@
 					};
 					299522381BBF104D00859F49 = {
 						CreatedOnToolsVersion = 7.0.1;
+						LastSwiftMigration = 1640;
 						ProvisioningStyle = Automatic;
 					};
 					299522641BBF129200859F49 = {
 						CreatedOnToolsVersion = 7.0.1;
+						LastSwiftMigration = 1640;
 						ProvisioningStyle = Automatic;
 					};
 					299522761BBF136400859F49 = {
 						CreatedOnToolsVersion = 7.0.1;
+						LastSwiftMigration = 1640;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -987,6 +1005,7 @@
 				2987B0C51BC408F900179A4C /* UIButton+AFNetworking.m in Sources */,
 				2987B0C41BC408F900179A4C /* UIActivityIndicatorView+AFNetworking.m in Sources */,
 				2987B0C01BC408D900179A4C /* AFURLResponseSerialization.m in Sources */,
+				1CBAE2A22E12917A00F93FA1 /* PrivacyInfo.xcprivacy in Sources */,
 				2987B0C61BC408F900179A4C /* UIImageView+AFNetworking.m in Sources */,
 				2987B0C31BC408F900179A4C /* AFImageDownloader.m in Sources */,
 			);
@@ -1071,6 +1090,7 @@
 			files = (
 				299522AD1BBF13C700859F49 /* UIProgressView+AFNetworking.m in Sources */,
 				299522571BBF125A00859F49 /* AFNetworkReachabilityManager.m in Sources */,
+				1CBAE2A32E12917A00F93FA1 /* PrivacyInfo.xcprivacy in Sources */,
 				299522AF1BBF13C700859F49 /* UIRefreshControl+AFNetworking.m in Sources */,
 				299522AA1BBF13C700859F49 /* UIImageView+AFNetworking.m in Sources */,
 				299522591BBF125A00859F49 /* AFSecurityPolicy.m in Sources */,
@@ -1091,6 +1111,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CBAE2A42E12917A00F93FA1 /* PrivacyInfo.xcprivacy in Sources */,
 				299522711BBF133400859F49 /* AFURLSessionManager.m in Sources */,
 				2995226F1BBF133400859F49 /* AFURLRequestSerialization.m in Sources */,
 				2995226E1BBF133400859F49 /* AFSecurityPolicy.m in Sources */,
@@ -1105,6 +1126,7 @@
 			files = (
 				299522801BBF13A100859F49 /* AFNetworkReachabilityManager.m in Sources */,
 				299522811BBF13A100859F49 /* AFSecurityPolicy.m in Sources */,
+				1CBAE2A12E12917A00F93FA1 /* PrivacyInfo.xcprivacy in Sources */,
 				2995227F1BBF13A100859F49 /* AFHTTPSessionManager.m in Sources */,
 				299522841BBF13A100859F49 /* AFURLSessionManager.m in Sources */,
 				299522821BBF13A100859F49 /* AFURLRequestSerialization.m in Sources */,
@@ -1138,6 +1160,7 @@
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				BITCODE_GENERATION_MODE = marker;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1155,6 +1178,8 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = 3;
 			};
 			name = Debug;
@@ -1164,6 +1189,7 @@
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				BITCODE_GENERATION_MODE = bitcode;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1181,6 +1207,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = 3;
 			};
 			name = Release;
@@ -1468,6 +1495,7 @@
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				BITCODE_GENERATION_MODE = marker;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1487,6 +1515,8 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
 			};
 			name = Debug;
 		};
@@ -1495,6 +1525,7 @@
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				BITCODE_GENERATION_MODE = bitcode;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1514,6 +1545,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 6.0;
 			};
 			name = Release;
 		};
@@ -1522,6 +1554,7 @@
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				BITCODE_GENERATION_MODE = marker;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -1539,6 +1572,8 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = 4;
 			};
 			name = Debug;
@@ -1548,6 +1583,7 @@
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				BITCODE_GENERATION_MODE = bitcode;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -1565,6 +1601,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = 4;
 			};
 			name = Release;
@@ -1574,6 +1611,7 @@
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				BITCODE_GENERATION_MODE = marker;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1593,6 +1631,8 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
 			};
 			name = Debug;
 		};
@@ -1601,6 +1641,7 @@
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				BITCODE_GENERATION_MODE = bitcode;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1620,6 +1661,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 6.0;
 			};
 			name = Release;
 		};
